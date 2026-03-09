@@ -1,6 +1,7 @@
 # Bootstrap-Learning-Journey
 
-Bu depo, Bootstrap framework’ünü öğrenirken yaptığım günlük pratik çalışmalarını içermektedir.
+Bu depo, Bootstrap framework’ünü öğrenirken yaptığım 
+pratik çalışmalarımı içermektedir.
 
 Bu projenin amacı, Bootstrap bileşenlerini, yerleşim sistemlerini (layout) ve yardımcı sınıflarını adım adım uygulayarak frontend geliştirme becerilerimi geliştirmektir. Her klasör belirli bir ders konusunu temsil eder ve ilgili Bootstrap kavramlarını gösteren basit HTML örnekleri içerir.
 
