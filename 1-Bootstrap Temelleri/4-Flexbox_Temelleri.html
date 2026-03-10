@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Flexbox Temelleri" />
+    <meta name="author" content="Flexbox Temelleri" />
+
+    <!-- Title -->
+    <title>Flexbox Temelleri</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/4-Flexbox_Temelleri.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- d-flex ve d-inline-flex Sınıfları Kullanımı -->
+      <div class="d-flex bg-dark text-white my-2">d-flex</div>
+      <div class="d-inline-flex bg-success text-white my-2">d-inline-flex</div>
+      <!-- Responsive Flexbox Sınıfları -->
+      <div class="d-inline-flex d-lg-flex bg-primary text-white my-2">
+        d-lg-inline-flex d-flex
+      </div>
+      <div class="d-flex d-lg-inline-flex bg-info text-white my-2">
+        d-flex d-lg-inline-flex
+      </div>
+      <!-- 1.Ayrım d-flex ve d-inline-flex Olmadan İçeriğideki div Etiketleri -->
+      <div class="bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-danger px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+
+      <div class="bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-danger px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+      <!-- 2.Ayrım d-flex ve d-inline-flex İçeriğideki div Etiketleri -->
+
+      <div class="d-flex bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-danger px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+
+      <div class="d-inline-flex bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-danger px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+      <div class="d-flex bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-danger px-3 text-white">
+          <img
+            src="../assets/img/portfolio/cabin.png"
+            alt="Sample Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+
+      <div class="d-inline-flex bg-dark my-2 p-2">
+        <div class="bg-info px-3 text-white">
+          <img
+            src="../assets/img/portfolio/cabin.png"
+            alt="Sample Image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="bg-danger px-3 text-white">Lorem ipsum dolor sit amet.</div>
+        <div class="bg-warning px-3 text-white">
+          Lorem ipsum dolor sit amet.
+        </div>
+      </div>
+      <!-- flex-row(Default) ve flex-row-reverse Kullanımı -->
+
+      <div class="d-flex flex-row bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+      <div class="d-flex flex-row-reverse bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+      <div class="d-inline-flex flex-row-reverse bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+
+      <!-- Resonsive flex-row ve flex-row-reverse Kullanımı -->
+      <div class="d-flex flex-md-row flex-lg-row-reverse bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+
+      <div
+        class="d-inline-flex flex-sm-row-reverse flex-md-row bg-dark my-2 p-2"
+      >
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+
+      <!-- flex-column ve flex-column-reverse Kullanımı -->
+      <div class="d-flex flex-column bg-dark my-2 p-2">
+        <div class="bg-primary text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+
+      <div class="d-inline-flex flex-column-reverse bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+      <!--Responsive flex-column ve flex-column-reverse Kullanımı -->
+      <div
+        class="d-flex flex-md-column-reverse flex-xl-column bg-dark my-2 p-2"
+      >
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+
+      <div class="d-inline-flex flex-lg-column-reverse bg-dark my-2 p-2">
+        <div class="bg-success text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+      <div class="d-flex flex-sm-column bg-dark my-2 p-2">
+        <div class="bg-primary text-white px-3">Item 1</div>
+        <div class="bg-danger text-white px-3">Item 2</div>
+        <div class="bg-warning text-white px-3">Item 3</div>
+      </div>
+    </div>
+    <!-- container-fluid -->
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
