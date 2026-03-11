@@ -1,0 +1,22 @@
+.title-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 50px 0;
+  color: rgb(32, 45, 71);
+  text-align: center;
+}
+
+.demo-box {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.text-truncate-demo {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.boxFlex {
+  height: 200px;
+}

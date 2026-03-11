@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bootstrap Yararlı Araçlar 2" />
+    <meta name="author" content="Bootstrap Yararlı Araçlar 2" />
+
+    <!-- Title -->
+    <title>Bootstrap Yararlı Araçlar 2</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/16-Bootstrap_Yararli_Araclar2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title-heading">Bootstrap Yararlı Araçlar 2</h2>
+
+      <!-- 1. Width -->
+      <h3>1. Genişlik (Width)</h3>
+      <div class="w-25 bg-primary text-white p-2 mb-2">w-25</div>
+      <div class="w-50 bg-success text-white p-2 mb-2">w-50</div>
+      <div class="w-75 bg-danger text-white p-2 mb-2">w-75</div>
+      <div class="w-100 bg-dark text-white p-2 mb-2">w-100</div>
+
+      <!-- 2. Height -->
+      <h3 class="mt-4">2. Yükseklik (Height)</h3>
+      <div class="row">
+        <div class="col-md-12 mb-5 bg-dark" style="height: 500px">
+          <div class="h-25 bg-primary text-white mb-2 d-inline-flex">h-25</div>
+          <div class="h-50 bg-success text-white mb-2 d-inline-flex">h-50</div>
+          <div class="h-75 bg-danger text-white mb-5 d-inline-flex">h-75</div>
+        </div>
+      </div>
+
+      <!-- 3. Viewport -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="mt-4">3. Viewport Genişlik ve Yükseklik</h3>
+          <div class="vh-25 bg-primary text-white p-2 mb-2 d-inline-flex">
+            vh-25
+          </div>
+          <div class="vh-50 bg-success text-white p-2 mb-2 d-inline-flex">
+            vh-50
+          </div>
+          <div class="vh-100 bg-info text-white p-2 mb-2 d-inline-flex">
+            vh-100
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Inline elementlerde dikey hizalama -->
+      <div class="row">
+        <div class="col-md-12 bg-primary text-white p-2 mb-2">
+          <span class="align-center">item 1(orta)</span>
+          <span class="align-top">item 2(üst)</span>
+          <span class="align-bottom">item 3(alt)</span>
+          <span class="align-baseline">item 1</span>
+          <span class="align-text-top">item 2(üst)</span>
+          <span class="align-text-bottom">item 3(alt)</span>
+        </div>
+      </div>
+
+      <!-- 5. Link Renklendirme -->
+      <h3 class="mt-4">5. Link Renklendirme</h3>
+      <a href="#" class="link-primary me-2">link-primary</a>
+      <a href="#" class="link-success me-2">link-success</a>
+      <a href="#" class="link-danger me-2">link-danger</a>
+
+      <!-- 6. Metin Kesme -->
+      <h3 class="mt-4">6. Metin Kesme (Text Truncate)</h3>
+      <div class="text-truncate-demo bg-light p-2">
+        Bu çok uzun bir metindir ve container içine sığmaz. Sondan kesilir.
+      </div>
+
+      <!-- 7. Vertical Rule -->
+      <h3 class="mt-4">7. Vertical Rule</h3>
+      <div class="d-flex align-items-center">
+        <div>Menü</div>
+        <div class="vr mx-3"></div>
+        <div>İçerik</div>
+      </div>
+
+      <!-- 8. Videoları Duyarlı Hale Getirme -->
+      <h3 class="mt-4">8. Responsive Video</h3>
+      <div class="ratio ratio-16x9">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/_vT7xQegCnc?si=fvBa-Q9Rpmy2-qTy"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!-- container -->
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
