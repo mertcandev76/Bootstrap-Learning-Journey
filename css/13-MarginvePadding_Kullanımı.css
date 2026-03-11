@@ -2,10 +2,6 @@
   font-size: 24px;
   font-weight: bold;
   margin: 50px 0;
-  color: rgb(18, 95, 36);
+  color: rgb(14, 59, 148);
   text-align: center;
-}
-.image-fluid {
-  max-width: 50%;
-  height: 200px;
 }
