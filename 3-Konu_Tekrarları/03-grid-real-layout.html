@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="grid-real-layout" />
+    <meta name="author" content="grid-real-layout" />
+
+    <!-- Title -->
+    <title>grid-real-layout</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css//style.css" />
+  </head>
+  <body>
+    <!-- BAŞLIK -->
+    <div class="container mt-4">
+      <h1 class="text-center">Bootstrap Grid Practice</h1>
+      <p class="text-center text-muted">
+        Sidebar, Card Grid ve Nested Grid örnekleri
+      </p>
+    </div>
+
+    <!-- SIDEBAR + CONTENT -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">1. Sidebar + Content Layout</h3>
+
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 bg-dark text-white p-4">
+          <h4 class="mb-3">Sidebar</h4>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">Dashboard</li>
+            <li class="mb-2">Users</li>
+            <li class="mb-2">Courses</li>
+            <li class="mb-2">Settings</li>
+          </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="col-md-9 bg-light p-4">
+          <h4>Main Content</h4>
+          <p>
+            Bu alan ana içerik alanıdır. Grid sistemi ile sidebar ve içerik
+            alanı kolayca oluşturulabilir.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 CARD GRID -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">2. 3 Card Grid</h3>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="border p-4 text-center">
+            <h5>Card 1</h5>
+            <p>Kart açıklaması</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border p-4 text-center">
+            <h5>Card 2</h5>
+            <p>Kart açıklaması</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border p-4 text-center">
+            <h5>Card 3</h5>
+            <p>Kart açıklaması</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 CARD GRID -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">3. 4 Card Grid</h3>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="bg-primary text-white p-4 text-center">Card 1</div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="bg-success text-white p-4 text-center">Card 2</div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="bg-danger text-white p-4 text-center">Card 3</div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="bg-warning p-4 text-center">Card 4</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NESTED GRID -->
+    <div class="container mt-5 mb-5">
+      <h3 class="wrapper-heading mb-3">4. Nested Grid (Grid içinde Grid)</h3>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="bg-info text-white p-4 text-center">Nested 1</div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="bg-secondary text-white p-4 text-center">
+                Nested 2
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="bg-dark text-white p-4 text-center">Sidebar</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>

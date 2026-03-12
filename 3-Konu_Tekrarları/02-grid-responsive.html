@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Grid Basic" />
+    <meta name="author" content="Grid Basic" />
+
+    <!-- Title -->
+    <title>Grid Basic</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- BAŞLIK -->
+    <div class="container mt-4">
+      <h1 class="text-center">Bootstrap Responsive Grid</h1>
+
+      <p class="text-center text-muted">
+        Farklı ekran boyutlarında kolonların nasıl değiştiğini öğreniyoruz
+      </p>
+    </div>
+
+    <!-- BREAKPOINT BİLGİSİ -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">Bootstrap Breakpoint Mantığı</h3>
+
+      <p>
+        Bootstrap grid sistemi farklı ekran boyutlarına göre kolonları
+        değiştirebilir. Buna <strong>Responsive Grid</strong> denir.
+      </p>
+
+      <ul>
+        <li>col- → tüm ekranlar</li>
+        <li>col-sm- → küçük ekranlar (≥576px)</li>
+        <li>col-md- → tablet (≥768px)</li>
+        <li>col-lg- → laptop (≥992px)</li>
+        <li>col-xl- → büyük ekran (≥1200px)</li>
+      </ul>
+    </div>
+
+    <!-- ÖRNEK 1 -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">
+        Örnek 1 → Mobilde 1 kolon / Tablette 2 kolon
+      </h3>
+
+      <div class="row">
+        <div class="col-12 col-md-6 bg-primary text-white p-3 text-center">
+          col-12 col-md-6
+        </div>
+
+        <div class="col-12 col-md-6 bg-success text-white p-3 text-center">
+          col-12 col-md-6
+        </div>
+      </div>
+    </div>
+
+    <!-- ÖRNEK 2 -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">
+        Örnek 2 → Mobil 1 / Tablet 2 / Laptop 3 kolon
+      </h3>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 bg-warning p-3 text-center">
+          col-12 col-md-6 col-lg-4
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 bg-info p-3 text-center">
+          col-12 col-md-6 col-lg-4
+        </div>
+
+        <div
+          class="col-12 col-md-6 col-lg-4 bg-secondary text-white p-3 text-center"
+        >
+          col-12 col-md-6 col-lg-4
+        </div>
+      </div>
+    </div>
+
+    <!-- ÖRNEK 3 -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">Örnek 3 → Kart Layout (Responsive)</h3>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5>Card 1</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5>Card 2</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5>Card 3</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5>Card 4</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ÖRNEK 4 -->
+    <div class="container mt-5 mb-5">
+      <h3 class="wrapper-heading">Örnek 4 → Sidebar Layout Responsive</h3>
+
+      <div class="row">
+        <div class="col-12 col-md-3 bg-dark text-white p-3 text-center">
+          Sidebar
+        </div>
+
+        <div class="col-12 col-md-9 bg-light p-3 text-center">
+          Content Alanı
+        </div>
+      </div>
+    </div>
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>

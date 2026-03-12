@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="spacing" />
+    <meta name="author" content="spacing" />
+
+    <!-- Title -->
+    <title>spacing</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <!-- container -->
+    <!-- BAŞLIK -->
+    <div class="container mt-4">
+      <h1 class="text-center">Bootstrap Spacing System</h1>
+      <p class="text-center text-muted">Margin, Padding ve Gap kullanımı</p>
+    </div>
+
+    <!-- MARGIN ÖRNEKLERİ -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">Margin Kullanımı</h3>
+
+      <div class="bg-primary text-white p-3 mb-3">mb-3 → margin bottom</div>
+
+      <div class="bg-success text-white p-3 mt-4">mt-4 → margin top</div>
+
+      <div class="bg-danger text-white p-3 ms-5">
+        ms-5 → margin start (left)
+      </div>
+
+      <div class="bg-warning p-3 me-5">me-5 → margin end (right)</div>
+    </div>
+
+    <!-- PADDING ÖRNEKLERİ -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">Padding Kullanımı</h3>
+
+      <div class="bg-primary text-white p-5 mb-3">
+        p-5 → tüm yönlerde padding
+      </div>
+
+      <div class="bg-success text-white px-5 py-2">
+        px-5 py-2 → yatay ve dikey padding
+      </div>
+    </div>
+
+    <!-- MX MY -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading">mx ve my Kullanımı</h3>
+
+      <div class="bg-info text-white p-3 mx-5 mb-3">
+        mx-5 → sağ ve sol margin
+      </div>
+
+      <div class="bg-secondary text-white p-3 my-4">
+        my-4 → üst ve alt margin
+      </div>
+    </div>
+
+    <!-- FLEX GAP -->
+    <div class="container mt-5 mb-5">
+      <h3 class="wrapper-heading">Flex Gap Kullanımı</h3>
+
+      <div class="d-flex gap-3 bg-light p-3">
+        <div class="bg-primary text-white p-3">Box 1</div>
+
+        <div class="bg-success text-white p-3">Box 2</div>
+
+        <div class="bg-danger text-white p-3">Box 3</div>
+      </div>
+    </div>
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>

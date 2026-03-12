@@ -1,0 +1,82 @@
+.h-heading1 {
+  color: #dedada;
+  background-color: #2a0830;
+  padding: 10px;
+  margin: 10px;
+}
+.p-lorem1 {
+  color: #f9f8f8;
+  background-color: #805a87;
+  padding: 12px;
+  margin: 15px;
+}
+.h-heading2 {
+  color: #e5e3d2;
+  background-color: #201822;
+}
+.p-lorem2 {
+  color: #d2e3e4;
+  background-color: #320219;
+}
+.h-heading3 {
+  color: #e5e3d2;
+  background-color: #0e424e;
+}
+.p-lorem3 {
+  color: #d2e3e4;
+  background-color: #1b1f46;
+}
+.h-heading4 {
+  color: #e5e3d2;
+  background-color: #370e4e;
+}
+.p-lorem4 {
+  color: #d2e3e4;
+  background-color: #1f461b;
+}
+.h-heading5 {
+  color: #e5e3d2;
+  background-color: #4e0e24;
+}
+.p-lorem5 {
+  color: #d2e3e4;
+  background-color: #0f3b6d;
+}
+.h-heading6 {
+  color: #e5e3d2;
+  background-color: #4c4e0e;
+}
+.p-lorem6 {
+  color: #d2e3e4;
+  background-color: #2a7814;
+}
+
+.h-heading7 {
+  color: #e5e3d2;
+  background-color: #144e7e;
+}
+.p-lorem7 {
+  color: #d2e3e4;
+  background-color: #3e1643;
+}
+
+.h-heading8 {
+  color: #e5e3d2;
+  background-color: #36147e;
+}
+.p-lorem8 {
+  color: #d2e3e4;
+  background-color: #164327;
+}
+.h-heading9 {
+  color: #e5e3d2;
+  background-color: #1d906a;
+}
+.p-lorem9 {
+  color: #d2e3e4;
+  background-color: #411643;
+}
+
+.card-wrapper2 {
+  height: 300px;
+}

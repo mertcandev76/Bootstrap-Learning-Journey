@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="grid-flex-spacing-position" />
+    <meta name="author" content="grid-flex-spacing-position" />
+
+    <!-- Title -->
+    <title>grid-flex-spacing-position</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- STICKY NAVBAR -->
+
+    <div class="container-fluid bg-dark text-white position-sticky top-0 z-3">
+      <div
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
+        <h4 class="mb-0">Benim Sitem</h4>
+
+        <nav class="d-flex gap-3">
+          <a href="#" class="text-white text-decoration-none">Home</a>
+          <a href="#" class="text-white text-decoration-none">Products</a>
+          <a href="#" class="text-white text-decoration-none">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- HERO -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 bg-light text-center py-5 position-relative">
+          <h1 class="mb-3">Bootstrap Yerleşim Sistemi</h1>
+
+          <p class="text-muted mb-4">
+            Grid + Flex + Spacing + Position birlikte kullanımı
+          </p>
+
+          <button class="btn btn-primary">Başlayın</button>
+
+          <!-- BADGE -->
+
+          <span class="badge bg-danger position-absolute top-0 end-0 m-3">
+            Yeni
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD GRID -->
+
+    <div class="container mt-5">
+      <h3 class="text-primary mb-4">Özellik Kartları</h3>
+
+      <div class="row g-4">
+        <!-- CARD -->
+
+        <div class="col-md-4">
+          <div class="border p-4 h-100 d-flex flex-column position-relative">
+            <h5 class="mb-3">Hızlı Gelişim</h5>
+
+            <p class="text-muted flex-grow-1">
+              Bootstrap ile hızlı UI geliştirme yapılabilir.
+            </p>
+
+            <button class="btn btn-primary">Devamını oku</button>
+
+            <span class="badge bg-success position-absolute top-0 start-0 m-2">
+              Popüler
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border p-4 h-100 d-flex flex-column">
+            <h5 class="mb-3">Duyarlı Tasarım</h5>
+
+            <p class="text-muted flex-grow-1">
+              Grid sistemi ile responsive tasarım oluşturulur.
+            </p>
+
+            <button class="btn btn-success">Devamını oku</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="border p-4 h-100 d-flex flex-column">
+            <h5 class="mb-3">Esnek Düzen</h5>
+
+            <p class="text-muted flex-grow-1">
+              Flexbox ile içerik hizalama yapılır.
+            </p>
+
+            <button class="btn btn-danger">Devamını oku</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT GRID -->
+
+    <div class="container mt-5 mb-5">
+      <h3 class="text-primary mb-4">Ürünler</h3>
+
+      <div class="row g-3">
+        <div class="col-md-3">
+          <div
+            class="bg-primary text-white p-4 text-center d-flex flex-column gap-2"
+          >
+            <h6>Ürün 1</h6>
+
+            <p class="small">Kısa açıklama</p>
+
+            <button class="btn btn-light btn-sm">Satın almak</button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div
+            class="bg-success text-white p-4 text-center d-flex flex-column gap-2"
+          >
+            <h6>Ürün 2</h6>
+
+            <p class="small">Kısa açıklama</p>
+
+            <button class="btn btn-light btn-sm">Satın almak</button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div
+            class="bg-danger text-white p-4 text-center d-flex flex-column gap-2"
+          >
+            <h6>Ürün 3</h6>
+
+            <p class="small">Kısa açıklama</p>
+
+            <button class="btn btn-light btn-sm">Satın almak</button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="bg-warning p-4 text-center d-flex flex-column gap-2">
+            <h6>Ürün 4</h6>
+
+            <p class="small">Kısa açıklama</p>
+
+            <button class="btn btn-dark btn-sm">Satın almak</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLOATING BUTTON -->
+
+    <div class="position-fixed bottom-0 end-0 m-4">
+      <button class="btn btn-primary rounded-circle p-3">↑</button>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-0">© 2026 Bootstrap Öğrenme Projesi</p>
+      </div>
+    </div>
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>

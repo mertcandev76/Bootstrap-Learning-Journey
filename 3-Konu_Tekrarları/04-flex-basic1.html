@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="flex-basic" />
+    <meta name="author" content="flex-basic" />
+
+    <!-- Title -->
+    <title>flex-basic</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- BAŞLIK -->
+    <div class="container mt-4">
+      <h1 class="text-center">Bootstrap Flex Basic</h1>
+      <p class="text-center text-muted">
+        d-flex, flex-row, flex-column ve flex-wrap kullanımı
+      </p>
+    </div>
+
+    <!-- FLEX ROW -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">1. Flex Row (Varsayılan)</h3>
+
+      <div class="d-flex bg-light p-3">
+        <div class="bg-primary text-white p-3 me-2">
+          <h5>Box 1</h5>
+        </div>
+
+        <div class="bg-success text-white p-3 me-2">
+          <h5>Box 2</h5>
+        </div>
+
+        <div class="bg-danger text-white p-3">
+          <h5>Box 3</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLEX COLUMN -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">2. Flex Column</h3>
+
+      <div class="d-flex flex-column bg-light p-3">
+        <div class="bg-primary text-white p-3 mb-2">
+          <h5>Column 1</h5>
+        </div>
+
+        <div class="bg-success text-white p-3 mb-2">
+          <h5>Column 2</h5>
+        </div>
+
+        <div class="bg-danger text-white p-3">
+          <h5>Column 3</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLEX WRAP -->
+    <div class="container mt-5">
+      <h3 class="wrapper-heading mb-3">3. Flex Wrap</h3>
+
+      <div class="d-flex flex-wrap bg-light p-3">
+        <div class="bg-primary text-white p-4 m-2">Box 1</div>
+        <div class="bg-success text-white p-4 m-2">Box 2</div>
+        <div class="bg-danger text-white p-4 m-2">Box 3</div>
+        <div class="bg-warning p-4 m-2">Box 4</div>
+        <div class="bg-info text-white p-4 m-2">Box 5</div>
+      </div>
+    </div>
+
+    <!-- FLEX GAP -->
+    <div class="container mt-5 mb-5">
+      <h3 class="wrapper-heading mb-3">4. Flex Gap</h3>
+
+      <div class="d-flex gap-3 bg-light p-3">
+        <div class="bg-primary text-white p-3">Box 1</div>
+
+        <div class="bg-success text-white p-3">Box 2</div>
+
+        <div class="bg-danger text-white p-3">Box 3</div>
+      </div>
+    </div>
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
