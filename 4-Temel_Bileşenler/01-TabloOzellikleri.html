@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tablo Özellikleri" />
+    <meta name="author" content="Tablo Özellikleri" />
+
+    <!-- Title -->
+    <title>Tablo Özellikleri</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/01-TabloOzellikleri.html.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-5">
+        Bootstrap 5 Tablo Özellikleri – Tam Çalışma Örneği
+      </h1>
+
+      <!-- 1. Temel Tablo -->
+      <h2>1. Temel Tablo (sadece .table)</h2>
+      <div class="example-box">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Ad</th>
+              <th scope="col">Soyad</th>
+              <th scope="col">Bölüm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mert</td>
+              <td>Yılmaz</td>
+              <td>Yazılım Müh.</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Ayşe</td>
+              <td>Kara</td>
+              <td>Bilgisayar Prog.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 2. Çizgili + Hover + Küçük -->
+      <h2>
+        2. Çizgili + Hover + Küçük (.table-striped + .table-hover + .table-sm)
+      </h2>
+      <div class="example-box">
+        <table class="table table-striped table-hover table-sm">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Ürün</th>
+              <th>Fiyat</th>
+              <th>Stok</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>Telefon</td>
+              <td>24.999 ₺</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>Kulaklık</td>
+              <td>1.299 ₺</td>
+              <td>45</td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>Mouse</td>
+              <td>599 ₺</td>
+              <td>120</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 3. Renkli Satırlar -->
+      <h2>3. Renkli Satırlar (contextual classes)</h2>
+      <div class="example-box">
+        <table class="table table-bordered">
+          <thead class="table-dark">
+            <tr>
+              <th>Durum</th>
+              <th>Açıklama</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-success">
+              <td>Başarılı</td>
+              <td>İşlem tamamlandı</td>
+            </tr>
+            <tr class="table-danger">
+              <td>Hata</td>
+              <td>Bağlantı kesildi</td>
+            </tr>
+            <tr class="table-warning">
+              <td>Uyarı</td>
+              <td>Dikkat gerekli</td>
+            </tr>
+            <tr class="table-info">
+              <td>Bilgi</td>
+              <td>Güncelleme mevcut</td>
+            </tr>
+            <tr class="table-primary">
+              <td>Önemli</td>
+              <td>Yeni özellik eklendi</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 4. Tamamen Kenarlıksız Tablo -->
+      <h2>4. Kenarlıksız Tablo (.table-borderless)</h2>
+      <div class="example-box">
+        <table class="table table-borderless table-striped">
+          <thead>
+            <tr>
+              <th>Tarih</th>
+              <th>Saat</th>
+              <th>Etkinlik</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>15 Mart 2026</td>
+              <td>21:30</td>
+              <td>Toplantı</td>
+            </tr>
+            <tr>
+              <td>16 Mart 2026</td>
+              <td>14:00</td>
+              <td>Kod inceleme</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 5. Dikey Hizalama -->
+      <h2>5. Dikey Hizalama (align-*) + İç İçe Tablo</h2>
+      <div class="example-box">
+        <table class="table table-bordered">
+          <thead class="table-primary">
+            <tr>
+              <th>Öğrenci</th>
+              <th>Notlar</th>
+              <th>Detay</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-middle">Ali Veli</td>
+              <td class="align-top">
+                <table class="table table-sm mb-0">
+                  <tr>
+                    <td>Vize</td>
+                    <td>78</td>
+                  </tr>
+                  <tr>
+                    <td>Final</td>
+                    <td>92</td>
+                  </tr>
+                </table>
+              </td>
+              <td class="align-bottom">Geçti ✓</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 6. Responsive Tablo -->
+      <h2>6. Responsive (yatay kaydırmalı) Tablo</h2>
+      <div class="example-box">
+        <div class="table-responsive">
+          <table class="table table-striped table-hover table-bordered">
+            <thead class="table-dark">
+              <tr>
+                <th>#</th>
+                <th>Ürün Kodu</th>
+                <th>Ürün Adı</th>
+                <th>Kategori</th>
+                <th>Fiyat (TL)</th>
+                <th>Stok Adedi</th>
+                <th>Son Güncelleme</th>
+                <th>Durum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>PRD-458712</td>
+                <td>kablosuz şarj aleti 15W</td>
+                <td>Aksesuar</td>
+                <td>449,90</td>
+                <td>34</td>
+                <td>14.03.2026</td>
+                <td class="table-success">Aktif</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>PRD-998541</td>
+                <td>4K Monitör 32"</td>
+                <td>Monitör</td>
+                <td>14.999,00</td>
+                <td>7</td>
+                <td>10.03.2026</td>
+                <td class="table-warning">Az stok</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 7. Caption örneği -->
+      <h2>7. Caption (tablo başlığı) + Koyu Tema</h2>
+      <div class="example-box">
+        <table class="table table-dark table-striped">
+          <caption>
+            2026 Bahar Dönemi – En Çok Tercih Edilen Dersler
+          </caption>
+          <thead>
+            <tr>
+              <th>Sıra</th>
+              <th>Ders Kodu</th>
+              <th>Ders Adı</th>
+              <th>Kayıt Sayısı</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>CS-101</td>
+              <td>Giriş programlama</td>
+              <td>248</td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>WEB-301</td>
+              <td>Modern Web Teknolojileri</td>
+              <td>189</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- container -->
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
