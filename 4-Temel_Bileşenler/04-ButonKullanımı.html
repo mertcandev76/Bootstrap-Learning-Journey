@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Buton Kullanımı" />
+    <meta name="author" content="Buton Kullanımı" />
+
+    <!-- Title -->
+    <title>Buton Kullanımı</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/04-ButonKullanımı.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="mb-4">Bootstrap 5 Buton Özellikleri</h1>
+
+      <!-- Renkli Butonlar -->
+      <section class="mb-5">
+        <h3>Renkler</h3>
+        <button class="btn btn-primary me-2 mb-2">Primary</button>
+        <button class="btn btn-secondary me-2 mb-2">Secondary</button>
+        <button class="btn btn-success me-2 mb-2">Success</button>
+        <button class="btn btn-danger me-2 mb-2">Danger</button>
+        <button class="btn btn-warning me-2 mb-2">Warning</button>
+        <button class="btn btn-info me-2 mb-2">Info</button>
+        <button class="btn btn-light me-2 mb-2">Light</button>
+        <button class="btn btn-dark me-2 mb-2">Dark</button>
+      </section>
+
+      <!-- Boyutlar -->
+      <section class="mb-5">
+        <h3>Boyutlar</h3>
+        <button class="btn btn-primary btn-lg me-2 mb-2">Büyük Buton</button>
+        <button class="btn btn-primary btn-sm me-2 mb-2">Küçük Buton</button>
+        <button class="btn btn-primary w-100 mb-2">Tam Genişlik Buton</button>
+      </section>
+
+      <!-- Buton Durumları -->
+      <section class="mb-5">
+        <h3>Durumlar</h3>
+        <button class="btn btn-primary me-2 mb-2" disabled>Pasif Buton</button>
+        <button class="btn btn-primary active me-2 mb-2">Aktif Buton</button>
+      </section>
+
+      <!-- Outline Butonlar -->
+      <section class="mb-5">
+        <h3>Outline Butonlar</h3>
+        <button class="btn btn-outline-primary me-2 mb-2">
+          Primary Outline
+        </button>
+        <button class="btn btn-outline-success me-2 mb-2">
+          Success Outline
+        </button>
+        <button class="btn btn-outline-danger me-2 mb-2">Danger Outline</button>
+      </section>
+
+      <!-- Buton Grubu -->
+      <section class="mb-5">
+        <h3>Buton Grubu</h3>
+        <div class="btn-group mb-2" role="group">
+          <button class="btn btn-primary">Sol</button>
+          <button class="btn btn-primary">Orta</button>
+          <button class="btn btn-primary">Sağ</button>
+        </div>
+      </section>
+    </div>
+    <!-- container -->
+
+    <div class="container py-5">
+      <h1 class="mb-4">Özel Buton ve Layout Demo</h1>
+
+      <!-- Özel Buton -->
+      <section class="mb-5">
+        <h3>Özel Buton</h3>
+        <button class="btn-custom">Özel Buton</button>
+      </section>
+
+      <!-- Grid Layout -->
+      <section class="mb-5">
+        <h3>Grid Layout</h3>
+        <div class="grid-demo">
+          <div class="btn btn-primary w-100">1</div>
+          <div class="btn btn-success w-100">2</div>
+          <div class="btn btn-warning w-100">3</div>
+          <div class="btn btn-danger w-100">4</div>
+        </div>
+      </section>
+
+      <!-- Flex Layout -->
+      <section class="mb-5">
+        <h3>Flex Layout</h3>
+        <div class="flex-demo">
+          <div class="btn btn-primary">Flex 1</div>
+          <div class="btn btn-success">Flex 2</div>
+          <div class="btn btn-warning">Flex 3</div>
+          <div class="btn btn-danger">Flex 4</div>
+        </div>
+      </section>
+
+      <!-- Position Örneği -->
+      <section class="mb-5">
+        <h3>Position Örneği</h3>
+        <div class="position-demo">
+          <div class="absolute-box">Absolute</div>
+          Bu kutu relative container içinde konumlanmıştır.
+        </div>
+      </section>
+    </div>
+    <!-- container -->
+
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
