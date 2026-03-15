@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resim Özellikleri" />
+    <meta name="author" content="Resim Özellikleri" />
+
+    <!-- Title -->
+    <title>Resim Özellikleri</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS (Local) -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome (Local CSS Version) -->
+    <link rel="stylesheet" href="../css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/02-ResimOzellikleri.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="mb-4">Bootstrap 5: Resim ve Layout Örnekleri</h1>
+      <p>
+        Bootstrap 5 ile resimleri duyarlı hale getirme, kenarları yuvarlama,
+        thumbnail yapma, ortalama, float ve figure kullanımı.
+      </p>
+      <hr />
+
+      <!-- 1. Duyarlı Resim -->
+      <h2 class="mt-5">1. Duyarlı Resim (Responsive Image)</h2>
+      <img
+        src="/assets/img/portfolio/cabin.png"
+        class="img-fluid"
+        alt="Duyarlı Resim"
+      />
+      <p class="text-muted mt-2">
+        <code>img-fluid</code> sınıfı resmin ekran boyutuna göre otomatik
+        küçülmesini sağlar.
+      </p>
+      <hr />
+
+      <!-- 2. Thumbnail ve Yuvarlak Kenarlar -->
+      <h2 class="mt-5">2. Thumbnail ve Yuvarlak Kenarlar</h2>
+      <img
+        src="/assets/img/portfolio/cake.png"
+        class="img-thumbnail rounded"
+        alt="Thumbnail ve Yuvarlak Kenar"
+      />
+      <p class="text-muted mt-2">
+        <code>img-thumbnail</code> kenarlıklı küçük resim oluşturur,
+        <code>rounded</code> kenarları yuvarlar.
+      </p>
+      <hr />
+
+      <!-- 3. Resmi Ortala -->
+      <h2 class="mt-5">3. Resmi Ortala</h2>
+      <div class="text-center">
+        <img
+          src="/assets/img/portfolio/circus.png"
+          class="img-fluid rounded"
+          alt="Ortalanmış Resim"
+        />
+      </div>
+      <p class="text-muted mt-2">
+        <code>text-center</code> sınıfı ile resmi ortalayabilirsiniz.
+      </p>
+      <hr />
+
+      <!-- 4. Float Sınıfları -->
+      <h2 class="mt-5">4. Float Sınıfları</h2>
+      <img
+        src="/assets/img/portfolio/game.png"
+        class="float-start me-3 mb-3"
+        alt="Sol Float"
+      />
+      <img
+        src="/assets/img/portfolio/safe.png"
+        class="float-end ms-3 mb-3"
+        alt="Sağ Float"
+      />
+      <p class="text-muted mt-5">
+        <code>float-start</code> sol, <code>float-end</code> sağa yaslar.
+        <code>me-3</code> ve <code>ms-3</code> margin ekler.
+      </p>
+      <div class="clearfix"></div>
+      <hr />
+
+      <!-- 5. Figure Kullanımı -->
+      <h2 class="mt-5">5. Figure Kullanımı</h2>
+      <figure class="figure">
+        <img
+          src="/assets/img/portfolio/submarine.png"
+          class="figure-img img-fluid rounded"
+          alt="Figure Resim"
+        />
+        <figcaption class="figure-caption text-center">
+          Bu bir figure açıklamasıdır.
+        </figcaption>
+      </figure>
+      <p class="text-muted mt-2">
+        <code>figure</code> ve <code>figcaption</code> ile resim + açıklama
+        kullanabilirsiniz.
+      </p>
+      <hr />
+
+      <!-- 6. Hero / Jumbotron -->
+      <h2 class="mt-5">6. Hero / Jumbotron (Bootstrap 5)</h2>
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Bootstrap 5 Hero Başlık</h1>
+          <p class="col-md-8 fs-4">
+            Bootstrap 5'te jumbotron yerine bu hero bölümü kullanılır.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button">
+            Daha Fazla Bilgi
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+
+    <div class="container py-5">
+      <h1 class="mb-4">Bootstrap 5: Grid ve Flex Resim Örnekleri</h1>
+
+      <!-- Grid ile Resimler -->
+      <h2 class="mt-5">1. Grid Sistemi ile Resimler</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img
+            src="https://via.placeholder.com/200"
+            class="img-fluid rounded"
+            alt="Grid 1"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img
+            src="https://via.placeholder.com/200"
+            class="img-fluid rounded"
+            alt="Grid 2"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img
+            src="https://via.placeholder.com/200"
+            class="img-fluid rounded"
+            alt="Grid 3"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img
+            src="https://via.placeholder.com/200"
+            class="img-fluid rounded"
+            alt="Grid 4"
+          />
+        </div>
+      </div>
+      <p class="text-muted mt-2">
+        Bootstrap 5 <code>row</code> ve <code>col</code> sınıfları ile
+        responsive grid.
+      </p>
+
+      <hr />
+
+      <!-- Flex ile Resimler -->
+      <h2 class="mt-5">2. Flex ile Resimler</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <img
+          src="https://via.placeholder.com/150"
+          class="img-fluid rounded"
+          alt="Flex 1"
+        />
+        <img
+          src="https://via.placeholder.com/150"
+          class="img-fluid rounded"
+          alt="Flex 2"
+        />
+        <img
+          src="https://via.placeholder.com/150"
+          class="img-fluid rounded"
+          alt="Flex 3"
+        />
+        <img
+          src="https://via.placeholder.com/150"
+          class="img-fluid rounded"
+          alt="Flex 4"
+        />
+      </div>
+      <p class="text-muted mt-2">
+        <code>d-flex flex-wrap justify-content-center gap-3</code> ile esnek ve
+        ortalanmış resimler.
+      </p>
+
+      <hr />
+
+      <!-- Grid + Flex Kombinasyonu -->
+      <h2 class="mt-5">3. Grid + Flex Kombinasyonu</h2>
+      <div class="row g-3">
+        <div class="col-md-6 d-flex justify-content-center">
+          <img
+            src="https://via.placeholder.com/250"
+            class="img-fluid rounded"
+            alt="Kombinasyon 1"
+          />
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <img
+            src="https://via.placeholder.com/250"
+            class="img-fluid rounded"
+            alt="Kombinasyon 2"
+          />
+        </div>
+      </div>
+      <p class="text-muted mt-2">
+        Grid ile kolon oluşturduk, Flex ile resimleri ortaladık.
+      </p>
+    </div>
+    <!-- container -->
+    <!-- JS local -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/Main.js"></script>
+    <!-- cdn -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
